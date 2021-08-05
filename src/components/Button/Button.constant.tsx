@@ -6,6 +6,8 @@ export interface ButtonStyleProps {
 export interface ButtonProps extends ButtonStyleProps {
   label?: string;
   onClick?: () => void;
+  name?:string;
+  type?:"button" | "submit" | "reset" 
 }
 
 export const ButtonColors = {
