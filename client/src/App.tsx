@@ -10,8 +10,8 @@ function App() {
       <RecoilRoot>
         <Suspense fallback={() => <span>Loading...</span>}>
           <Switch>
-            <Route path="/" exact component={Join} />
-            <Route path="/chat" component={Chat} />
+            <Route path="/" exact ><Join/></Route>
+            <Route path="/chat"><Chat/></Route>
           </Switch>
         </Suspense>
       </RecoilRoot>
